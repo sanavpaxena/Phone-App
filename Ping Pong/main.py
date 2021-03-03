@@ -10,7 +10,7 @@ class PongPaddle(Widget):
     score = NumericProperty(0)
     def bounce_ball(self,ball):
         if self.collide_widget(ball):
-            ball.velocity_x *= -1.1
+            ball.velocity_x *= -1
 
 
 
